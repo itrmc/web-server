@@ -1,5 +1,5 @@
 var express = require('express');
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 var app = express();
 
 //app.get('/', function(req, res){ //req and res are default parms in express
